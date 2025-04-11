@@ -12,6 +12,45 @@ This project also includes a content management system (CMS) for blog posts. Mor
 * Composer 
 * Since this project is running Laravel 9, I suggest checking out the official requirements
 
+## Installation
+* Clone the repository by running the following command in your command line below (Or you can download the zip file from GitHub)
+```shell
+git clone https://github.com/VOCTECH-SENIOR-HIGH-SCHOOL-TVL/blog-management-system.git
+ ```
+* Head to the projects directory
+```shell
+cd blog-management-system
+ ```
+* Install/Update Composer dependencies
+```shell
+composer install | composer update
+```
+
+* Copy .env.example file into .env file and configure based on your environment
+```shell
+cp .env.example .env
+```
+* Generate an encryption key
+```shell
+php artisan key:generate
+```
+* Migrate the database
+```shell
+php artisan migrate 
+```
+* Seed database 
+
+    - Use the following command
+    
+        ```shell
+        php artisan db:seed
+        ```
+        
+* For development or testing purposes, you can use the Laravel built-in server by running 
+```shell
+php artisan serve
+```
+
 After running the above commands, you should be able to access the application at http::/localhost or your designated domain name depending on the configuration.
 
 ## Setup
