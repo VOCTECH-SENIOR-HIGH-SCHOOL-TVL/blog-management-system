@@ -1,0 +1,1 @@
+<title>Voctech | Analytics</title><?php /**PATH C:\wamp64\www\Blog-Management-System\resources\views/components/titles/analytics_title.blade.php ENDPATH**/ ?>

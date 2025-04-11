@@ -1,0 +1,2 @@
+<link rel="icon" type="image/x-icon" href="<?php echo e('assets/img/vclogo.png'); ?>" />
+<?php /**PATH C:\wamp64\www\Blog-Management-System\resources\views/components/head/web_icon.blade.php ENDPATH**/ ?>

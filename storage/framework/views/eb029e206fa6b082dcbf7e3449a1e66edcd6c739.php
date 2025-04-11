@@ -1,0 +1,1 @@
+<title>Voctech | Users</title><?php /**PATH C:\wamp64\www\Blog-Management-System\resources\views/components/titles/users_title.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<title>Voctech | Posts</title><?php /**PATH C:\wamp64\www\blog-management-system-2\resources\views/components/titles/posts_title.blade.php ENDPATH**/ ?>

@@ -1,0 +1,1 @@
+<title>Voctech | Profile Settings</title><?php /**PATH C:\wamp64\www\Blog-Management-System\resources\views/components/titles/profile_settings_title.blade.php ENDPATH**/ ?>
