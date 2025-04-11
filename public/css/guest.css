@@ -1,0 +1,79 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #efe7e7;
+}
+
+.text-center-1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.g-card {
+    background: linear-gradient(250deg, #4f9cc2, #049be5, #095e88, #049be5);
+    background-size: 400% 400%;
+    animation: gradientAnimation 7s ease-in infinite;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; 
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.home-1 {
+    color: #fff;
+    background: transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: box-shadow .3s ease;
+}
+
+.home-1:hover {
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px #40E0D0;
+}
+
+.login-1 {
+    color: #fff;
+    background: transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: box-shadow .3s ease;
+}
+
+.login-1:hover {
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px #71d0ff;
+}
+
+.signup-1 {
+    color: #fff;
+    background: transparent;
+    border-color: #4cae4c;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: box-shadow .3s ease;
+}
+
+.signup-1:hover {
+    color: #f3f3f3;
+    box-shadow: 2px 2px 2px 2px #80ff80;
+}
